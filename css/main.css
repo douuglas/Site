@@ -73,6 +73,11 @@ a#scrollUp i {
   display: flex;
   align-items: center;
 }
+.logo div img{
+      height: 100px;
+      width: 280px;
+}
+
 .header_top {
     background: none repeat scroll 0 0 #F0F0E9;
 }

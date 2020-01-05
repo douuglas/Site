@@ -121,10 +121,15 @@
 
 @media (max-width: 767px) {
 
-  .logo{
-    display: inline;
-    align-items: center;
-  }
+    .logo{
+      display: inline;
+      align-items: center;
+    }
+    .logo div img{
+      height: 65px;
+      width: 150px;
+      margin: 40px 0 0 0;
+    }
     #cart_items .cart_info table{
         min-width: 600px;
     }
