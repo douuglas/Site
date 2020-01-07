@@ -310,12 +310,11 @@ ul.sub-menu {
     display: none;
     z-index: 999;
 }
-/*
+
 .dropdown ul.sub-menu li .active {
-    color: #f00;
-    padding-left: 0;
+    color: #fff;
 }
-*/
+
 .navbar-nav li ul.sub-menu li {
     padding: 10px 20px 0;
 }
