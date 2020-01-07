@@ -60,6 +60,9 @@
     #slider-carousel .item {
         padding-left: 30px;
     }
+    .item h1 {
+        margin-top: 20px;
+    }
     .item h2 {
         font-size: 24px;
     }
