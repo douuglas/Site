@@ -37,17 +37,22 @@
 
 @media (min-width: 768px) and (max-width: 991px) {
     .shop-menu{
-        display: block;
         width: 100%;
-        text-align: center;
     }
 
+    .search_box input {
+        width: 80%;
+    }
     .logo{
       display: inline;
     }
-    .shop-menu ul{
-        display: inline-block;
-        float: none;
+    .mainmenu ul li {
+        padding-right: 0px;
+        padding-left: 10px;
+    }
+
+    .mainmenu ul li a {
+      font-size: 13px;
     }
     .shop-menu ul li a {
         padding-left: 0;
@@ -149,13 +154,11 @@
         margin-top: 10px;
     }
     .shop-menu{
-        display: block;
         width: 100%;
-        text-align: center;
     }
     .shop-menu ul{
         display: inline-block;
-        float: none;
+        float: right;
     }
     .header_top .col-sm-6:first-child {
         display: inline-block;
@@ -187,15 +190,15 @@
         width: 100%;
     }
     .mainmenu ul li {
-        background: rgba(0, 0, 0, 0.5);
+        background: rgba(189, 0, 255, 0.5);
         padding-top: 15px;
         padding-bottom: 0;
     }
     .mainmenu ul li:last-child {
         padding-bottom: 15px;
     }
-    .mainmenu ul li a {
-        color: #fff;
+    .mainmenu ul li a ,.navbar-nav li ul.sub-menu li a {
+        color: #000;
     }
     .navbar-collapse.in {
         overflow: inherit;
@@ -341,6 +344,7 @@
         text-align: center;
         width: 100%;
     }
+
     .shop-menu ul li {
         padding: 0 5px;
     }
@@ -362,15 +366,16 @@
         width: 100%;
     }
     .mainmenu ul li {
-        background: rgba(0, 0, 0, 0.5);
+        background: rgba(189, 0, 255, 0.5);
         padding-top: 15px;
         padding-bottom: 0;
     }
+
     .mainmenu ul li:last-child {
         padding-bottom: 15px;
     }
-    .mainmenu ul li a {
-        color: #FFF;
+    .mainmenu ul li a, .navbar-nav li ul.sub-menu li a {
+        color: #000;
         padding-bottom: 0;
     }
     .navbar-collapse.in {
